@@ -1,0 +1,1 @@
+python virtual_screening.py --filename stage1_pair/eval --mode ft --max_epochs 50 --warmup_steps 1000 --use_mol_3d --tune_gnn --batch_size 1024 --match_batch_size 1024 --lm --init_checkpoint ./all_checkpoints/stage1_pair/stage1_ft.ckpt --precision 32 --data_path ./data/protein/DUD-E/raw/all
